@@ -1,0 +1,240 @@
+* {
+    font-family: Arial;
+    margin: 0;
+    border: border-box;
+}
+
+.nav{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;  
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 55px;
+width: 100px;
+   
+}  
+
+.logo{
+    
+background-image: url('image.PNG');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 55px;
+width: 100px;
+
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* deliver to */
+.address-first{
+   
+    margin-left: 15px;
+}
+.first{
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+.address-second{
+    
+    margin-left: 3px;
+}
+.second{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 4px;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border: none;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    padding-left: 2px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 52px;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-cart{
+    display: inline-block;
+}
+
+    
+
+.icon{
+    font-size: 25px;
+}
+
+.panel{
+    display: flex;
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-ops p{
+    display: inline-block;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero{
+  background-image: url('61A-FJoXloL._SX3000_.jpg');
+  /* background-color: rgb(22, 52, 71); */
+  background-size: cover;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content:center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+    width: 80%;
+    
+
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+/* box */
+
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+}
+
+.box{
+    border: 2px solid black;
+  background-color: white;
+    height: 400px;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    border: none;
+}
+
+.box-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-top: 1rem;
+
+}
+.box-content{
+    margin-left: 1rem;
+margin-right: 1rem;}
+
+.box p{
+    color: #007185;
+    margin-top: 1rem;
+}
+
+/*footer*/
+
+.foot-panel1{
+    display: flex;
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    align-items: center;
+    font-size: 0.7rem;
+    justify-content: center;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;  
+    height: 70px;
+    display: flex;
+    justify-content: center;
+}
